@@ -1,5 +1,6 @@
 <?php
 
+
 /*
  *
  *  PHP Alias
@@ -10,21 +11,8 @@
  *
  */
 
-/**
- * var_dump()
- * @param mixed $x
- */
-function v($x ) {
-    var_dump( $x );
-}
-
-/**
- * print_r()
- * @param array $x
- */
-function r($x ) {
-    print_r( $x );
-}
+use function var_dump as v;
+use function print_r as r;
 
 /**
  * Echos $n amount of newlines or HTML <br> tags if $b is true
