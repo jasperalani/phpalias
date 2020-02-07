@@ -1,0 +1,13 @@
+{
+    "name": "jasper/phpalias",
+    "description": "Shorthand aliases for php functions",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jasper Alani",
+            "email": "jasperalani@gmail.com"
+        }
+    ],
+    "require": {}
+}
